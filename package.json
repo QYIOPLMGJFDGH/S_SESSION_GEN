@@ -1,0 +1,23 @@
+{
+  "name": "your-project-name",
+  "version": "1.0.0",
+  "description": "Converted from Python requirements",
+  "main": "index.js",
+  "dependencies": {
+    "dns": "^2.3.4", // Equivalent of dnspython
+    "mongodb": "^5.6.0", // Equivalent of motor and pymongo
+    "os-utils": "^0.0.15", // Equivalent of psutil
+    "dotenv": "^16.1.4", // Equivalent of python-dotenv
+    "telegram-bot-api": "^6.0.0", // Closest match to pyrogram and telethon
+    "flask-restful": "^0.3.9", // Equivalent of Flask
+    "crypto": "^1.0.1", // Equivalent of TgCrypto
+    "express": "^4.18.2", // Equivalent to Flask's framework
+    "body-parser": "^1.20.2" // For additional Flask-like parsing
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
